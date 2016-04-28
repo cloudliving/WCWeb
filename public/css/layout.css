@@ -1,0 +1,33 @@
+/* header */
+.m-header {}
+.m-header .wrap {position: relative; width: 1000px; margin: 0 auto;}
+.m-header .wrap1 {position: relative; width: 1200px; margin: 0 auto;}
+.m-header .weather {height: 38px; line-height: 38px; background: #fff;}
+.m-header .weather span {margin-right: 9px;}
+.m-header .weather .bdr {border-right: 1px solid #d7d7d7; padding-right: 9px;}
+.m-header .banner img {width: 100%; display: block; margin-bottom: 2px;}
+.m-header .title {height: 90px; line-height: 90px; background: #cd1419; color: #fff; font-size: 48px; font-family: 'Microsoft YaHei'; font-weight: bold;}
+.m-header .goback {position: absolute; right: 0; bottom: 20px; font-size: 14px; line-height: 1.14;}
+.m-header .goback i {position: relative; top: 2px;display: inline-block; width: 20px; height: 14px; background: url(../images/icon.png) -90px -35px no-repeat; margin-right: 10px;}
+
+/* header-nav */
+.m-nav {font-size: 14px; font-weight: bold;}
+.m-nav .links,.m-nav .bar {background: url(../images/ico-bg.png) repeat-x;}
+.m-nav .links {height: 40px; line-height: 40px; text-align: center; color: #fff; border-top: 1px solid #af4a40; cursor: default;}
+.m-nav .links li {display: inline-block; height: 100%; margin: 0 5px; padding: 0 15px;}
+.m-nav .links li {*display: inline; zoom: 1;}
+.m-nav .links li:hover {background: #d91c22;}
+.m-nav .links a {display: block; height: 100%;}
+.m-nav .bar {display: none;}
+.m-nav .links a {*color: #fff;} 
+.m-nav .bar a {*color: #4c4c4c;}
+
+.m-nav.z-hasbar .bar {display: block; height: 33px; background-position: 0 -40px; line-height: 33px; text-align: center; color: #4c4c4c; border-top: 3px solid #f4cdd0;}
+.m-nav.z-hasbar .bar a {margin-right: 20px;}
+.m-nav.z-hasbar .bar a:hover {text-decoration: underline;}
+.m-nav.z-hasbar .bar a:last-child {margin-right: 0;}
+
+/* footer */
+.m-footer {padding: 24px 0 12px; background: #be1204; color: #f3dedd; text-align: center;}
+.m-footer p {margin-bottom: 15px;}
+.m-footer1 {background: #f1f1f1; color: #666;}

@@ -1,0 +1,26 @@
+.page-page .m-panel {margin-top: 60px; padding-bottom: 90px; padding-left: 75px; font-family: "Microsoft YaHei";}
+.page-page .m-panel .img {position: relative;float: left; width: 200px; height: 250px; margin-right: -200px;}
+.page-page .m-panel .ctn {float: right; width: 100%;}
+.page-page .m-panel .ctnc {margin-left: 275px;}
+.page-page .m-panel .title {font-size: 20px; margin-bottom: 12px;}
+.page-page .m-panel .info  {font-size: 14px; color: #999; margin-bottom: 24px;}
+.page-page .m-panel .text {line-height: 1.75; color: #666; font-size: 16px;}
+
+.page-page .m-caption {border-bottom: 3px solid #dbdbdb;}
+.page-page .m-caption>p{position: relative; top: 3px; display: inline-block; padding-bottom: 12px; font-size: 32px; color: #c1020e; border-bottom: 3px solid #c1020e; font-family: 'Microsoft YaHei'; font-weight: bold;}
+.page-page .m-caption1 {margin-top: 70px;}
+
+/* list 列表  */
+.page-page .m-list {margin-bottom: 60px;}
+.page-page .m-list .content {padding: 25px 20px; font-size: 16px; font-family: 'Microsoft YaHei';}
+.page-page .m-list .content li {list-style: square inside; color: #c01d0c; margin-bottom: 25px;}
+.page-page .m-list .content li:last-child {margin-bottom: 0;}
+.page-page .m-list .content a {color: #333;}
+.page-page .m-list .time {font-size: 14px; color: #999;}
+.page-page .m-list .content a:hover {text-decoration: underline;}
+.page-page .m-list .time {float: right;}
+
+.page-page .m-avalist {padding: 60px 50px 40px 50px;}
+.page-page .m-avalist .item {margin-bottom: 20px;}
+.page-page .m-avalist .item img {display: block; width: 100%; width: 140px; height: 175px; margin-bottom: 12px;}
+.page-page .m-avalist .name {font-size: 18px; text-align: center; font-family: 'Microsoft YaHei';}

@@ -1,0 +1,93 @@
+.page-news .clearfix:after {
+	height: 0;
+	content: "";
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+.page-news .news-wrap {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+}
+.page-news .info-moving {
+	margin-top: 20px;
+	padding-bottom: 40px;
+	width: 680px;
+	min-height: 800px;
+	border-right: 2px solid #eeebe3;
+}
+.page-news .path span {
+	float: left;
+	font-family: "SimSun";
+	color: #856230;
+	margin-right: 10px;
+}
+.page-news .title {
+	margin-top: 40px;
+	font-family: "Microsoft Yahei";
+	font-size: 18px;
+	color: #856230;
+}
+.page-news .relate-moving {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 278px;
+	padding: 0 20px;
+}
+.page-news .relate-moving .title {
+	margin-top: 0;
+}
+.page-news .rela-list {
+	margin-top: 30px;
+}
+.page-news .rela-list li {
+	position: relative;
+	margin-bottom: 20px;
+	padding-left: 28px;
+}
+.page-news .rela-list li:before {
+	position: absolute;
+	top: -1px;
+	left: 0;
+	content: "";
+	width: 18px;
+	height: 18px;
+	border-radius: 9px;
+	background-color: #e9e6d5;
+}
+.page-news .rela-list ul li:nth-child(1):before,
+.page-news .rela-list ul li:nth-child(2):before,
+.page-news .rela-list ul li:nth-child(3):before {
+	background-color: #9a7946;
+}
+.page-news .rela-list ul li:nth-child(1) i,
+.page-news .rela-list ul li:nth-child(2) i,
+.page-news .rela-list ul li:nth-child(3) i {
+	color: #e9e6d5;
+}
+.page-news .rela-list li i {
+	position: absolute;
+	top: -1px;
+	left: 0;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	font-family: "SimSun";
+	color: #9a7946;
+}
+.page-news .rela-list li a {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	color: #333;
+}
+.page-news .rela-list li a:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "wcweb",
+  "version": "1.0.0",
+  "description": "WuChang Civilization Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^1.1.0",
+    "gulp-ftp": "^1.1.0",
+    "gulp-html-replace": "^1.5.5",
+    "gulp-replace": "^0.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "asdf"
+  },
+  "author": "CLive",
+  "license": "ISC"
+}
