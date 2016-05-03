@@ -1,0 +1,14 @@
+.traditional-page .m-avalist {
+    padding: 50px 50px 10px 50px;
+}
+.traditional-page .m-avalist .item {
+    margin-bottom: 50px;
+}
+.traditional-page .m-avalist .item img {
+    width: 230px;
+    height: 311px;
+}
+.traditional-page .m-avalist .name {
+	width: 230px;
+    font-weight: bold;
+}

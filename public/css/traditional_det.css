@@ -1,0 +1,34 @@
+.traditional_det-page .g-container {
+	margin-top: 0;
+	padding: 60px 0;
+}
+.traditional_det-page .tra_det {
+	font-family: "Microsoft Yahei";
+	overflow: hidden;
+}
+.traditional_det-page .tra_det p:last-child {
+	margin-bottom: 0;	
+}
+.traditional_det-page .tra_det img {
+	float: left;
+	width: 451px;
+	height: 654px;
+	margin-right: 34px;
+	margin-bottom: 40px;
+}
+.traditional_det-page .tra_det .bookname {
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+.traditional_det-page .tra_det .author {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 24px;
+}
+.traditional_det-page .tra_det .para {
+	margin-bottom: 30px;
+	text-indent: 2em;
+	font-size: 16px;
+	color: #666;
+	line-height: 28px;
+}

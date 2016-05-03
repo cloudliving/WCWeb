@@ -14,15 +14,16 @@
 .m-nav {font-size: 14px; font-weight: bold;}
 .m-nav .links,.m-nav .bar {background: url(../images/ico-bg.png) repeat-x;}
 .m-nav .links {height: 40px; line-height: 40px; text-align: center; color: #fff; border-top: 1px solid #af4a40; cursor: default;}
-.m-nav .links li {display: inline-block; height: 100%; margin: 0 5px; padding: 0 15px;}
-.m-nav .links li {*display: inline; zoom: 1;}
+.m-nav .links li {position: relative; display: inline-block; height: 100%; margin: 0 5px; padding: 0 15px; *display: inline; *zoom: 1;}
 .m-nav .links li:hover {background: #d91c22;}
-.m-nav .links a {display: block; height: 100%;}
+.m-nav .links li:hover:after {position: absolute; left: 50%; bottom: 0; content: ""; width: 15px; height: 7px; margin-left: -7px; background: url(../images/icon.png) -50px -35px no-repeat;}
+.m-nav .links a {position: relative; display: block; height: 100%;}
 .m-nav .bar {display: none;}
 .m-nav .links a {*color: #fff;} 
 .m-nav .bar a {*color: #4c4c4c;}
 
-.m-nav.z-hasbar .bar {display: block; height: 33px; background-position: 0 -40px; line-height: 33px; text-align: center; color: #4c4c4c; border-top: 3px solid #f4cdd0;}
+.m-nav.z-hasbar .bar {display: none; height: 33px; background-position: 0 -40px; line-height: 33px; text-align: center; color: #4c4c4c; border-top: 3px solid #f4cdd0;}
+.m-nav.z-hasbar .cur {display: block;}
 .m-nav.z-hasbar .bar a {margin-right: 20px;}
 .m-nav.z-hasbar .bar a:hover {text-decoration: underline;}
 .m-nav.z-hasbar .bar a:last-child {margin-right: 0;}

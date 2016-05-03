@@ -1,0 +1,21 @@
+.classical-page .m-avalist {
+    padding: 50px 50px 10px 50px;
+}
+.classical-page .m-avalist .item {
+    margin-bottom: 50px;
+}
+.classical-page .m-avalist .item img {
+    width: 230px !important;
+    height: 311px !important;
+}
+.classical-page .m-avalist .name {
+	text-align: left !important;
+    font-weight: bold;
+}
+.classical-page .m-avalist .author {
+	margin-top: 10px;
+	font-size: 18px;
+}
+.classical-page .m-avalist .author span {
+	margin-right: 15px;
+}
