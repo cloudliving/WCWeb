@@ -23,4 +23,4 @@
 .page-page .m-avalist {padding: 60px 50px 40px 50px;}
 .page-page .m-avalist .item {margin-bottom: 20px;}
 .page-page .m-avalist .item img {display: block; width: 100%; width: 140px; height: 175px; margin-bottom: 12px;}
-.page-page .m-avalist .name {font-size: 18px; text-align: center; font-family: 'Microsoft YaHei';}
+.page-page .m-avalist .name {font-size: 18px; text-align: center; font-family: 'Microsoft YaHei'; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}

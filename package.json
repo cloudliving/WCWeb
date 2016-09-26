@@ -14,10 +14,6 @@
     "gulp-html-replace": "^1.5.5",
     "gulp-replace": "^0.5.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "asdf"
-  },
   "author": "CLive",
   "license": "ISC"
 }

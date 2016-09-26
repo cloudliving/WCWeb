@@ -16,9 +16,9 @@
 .s-header1 {line-height: 35px;height: 35px;background-position: 0 -73px;}
 .s-more {float: right;width: 34px;height: 11px;margin-top: 8px;margin-right: 6px;background: url(../images/icon.png) 0 -35px no-repeat;}
 .s-header1 .s-more {margin-top: 12px;}
-.s-title {font-weight: bold;line-height: 30px;position: absolute;top: -4px;left: 5px;width: 160px;height: 30px;text-align: center;color: #fff;background: url(../images/icon.png) no-repeat;}
-.s-title1 {font-weight: bold;float: left;padding-left: 10px;color: #b50800;}
-.s-title1 > .ico {position: relative;top: 6px;display: inline-block;width: 22px;height: 22px;margin-right: 3px;background: url(../images/ico-title.png) no-repeat;*display: inline;*zoom: 1;}
+.s-title {line-height: 30px;position: absolute;top: -4px;left: 5px;width: 160px;height: 30px;text-align: center;color: #fff;background: url(../images/icon.png) no-repeat; font-size: 18px; font-family: "Microsoft YaHei"}
+.s-title1 {float: left;padding-left: 10px;color: #b50800; font-size: 16px; font-family: "Microsoft YaHei";}
+.s-title1 > .ico {position: relative;top: 5px;display: inline-block;width: 22px;height: 22px;margin-right: 3px;background: url(../images/ico-title.png) no-repeat;*display: inline;*zoom: 1;}
 .s-title2 {color: #b30a00; font-weight: bold;}
 .s-title2>.dec {position: relative; top: 2px; display: inline-block; width: 4px; height: 13px; margin-right: 7px; background: url(../images/icon.png) -40px -35px no-repeat;}
 .s-title1 > .ico.b {background-position: 0 -22px;}
@@ -138,8 +138,16 @@
 
 /* read 全名阅读 */
 .m-read {padding: 10px 10px 0 10px;}
+.m-read .row {position: relative;}
 .m-read .row + .row{margin-top: 10px;}
 .m-read .header {position: relative; height: 17px; margin-bottom: 5px; border-bottom: 1px solid #e5e5e5;}
 .m-read .title {position: absolute; left: 0; bottom: -1px; padding-bottom: 5px; font-weight: bold; color: #c41c0e; border-bottom: 1px solid #b7b7b7;}
 .m-read .bar{position: relative; top: 3px; display: inline-block; *display: inline; *zoom: 1; width: 4px; height: 14px; background: #c41c0e; margin-right: 4px;}
 .m-read .s-more {margin-top: 0; margin-right: 0;}
+.m-read .thumb {position: absolute; right: 10px; top: 28px;width: 52px; height: 70px;}
+.m-read .m-list {padding-right: 70px;}
+
+/* volun-star 志愿之星 */
+.volun-star {margin-right: -20px; margin-top: -4px;}
+.volun-star li {float: left; margin: 0 11px 13px 11px;}
+.volun-star img {width: 80px; height: 100px;}
